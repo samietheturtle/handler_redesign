@@ -68,7 +68,7 @@ body {
 }
 
 #search_sprite {
-    background-image: url(ui_elementer/search_glass.svg);
+    background-image: url(ui_elementer/ui_search.svg);
     width: 1.3vw;
     height: 1.3vw;
     margin: 0.3vw;
