@@ -14,75 +14,61 @@ body {
 #headerwrapper {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
 }
 
-#some_ikoner_top_container {
-    position: relative;
-    display: flex;
-    left: 3vw;
-    top: 2vw;
-    justify-content: space-between;
-}
 
 #fbikon_top {
+    position: relative;
+    display: flex;
+    left: 7.5vw;
     width: 3vw;
     height: 3vw;
     background-image: url(ui_elementer/facebook%20ui.svg);
 }
 
 #igikon_top {
+    position: relative;
+    display: flex;
+    left: 8vw;
     width: 3vw;
     height: 3vw;
     background-image: url(ui_elementer/insta%20ui.svg);
 }
 
-/*#some_ikoner_top_sprite {
-    width: 13.9vw;
-    height: 6vw;
-    background-image: url(ui_elementer/some_iconer.svg);
-}*/
-
-#logo_container {
+#logo {
     position: relative;
-    left: 27vw;
-    top: 2vw;
-
-}
-
-#logo_sprite {
-    width: 8.9vw;
-    height: 6vw;
+    left: 29.5vw;
+    width: 23vw;
+    height: 16vw;
     background-image: url(ui_elementer/logo_handler.svg);
 }
 
-#search_container {
+#search_bar {
     position: relative;
-    left: 43vw;
-    top: 1vw;
+    left: 39.5vw;
     border-radius: 9px;
     padding: 2px;
     border: 1px solid black;
-    width: 250px;
-    height: 24px;
+    width: 220px;
+    height: 20px;
+
+
 }
 
-#search_sprite {
+#search_icon {
     background-image: url(ui_elementer/search_glass.svg);
     width: 1.3vw;
     height: 1.3vw;
     margin: 0.3vw;
 }
 
-#basket_container {
-    position: relative;
-    left: 44vw;
-    top: 2vw;
-}
 
-#basket_sprite {
-    width: 5vw;
-    height: 5.1vw;
+#basket {
+    position: relative;
+    left: 40vw;
+    width: 7vw;
+    height: 7.1vw;
     background-image: url(ui_elementer/ui_basket_ny.svg);
 }
 
@@ -92,12 +78,13 @@ body {
 
 #nav_wrapper {
     position: relative;
-    top: 5vw;
+    top: 1vw;
     text-align: center;
     letter-spacing: 2px;
     border-bottom: 1px solid #555;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
+    padding-bottom: 2.5vw;
 }
 
 header nav a {
@@ -120,7 +107,7 @@ header nav a:hover {
 
 #splash_sectionwrapper {
     position: relative;
-    top: 9vw;
+    top: 4vw;
     display: flex;
     align-items: center;
 
@@ -140,7 +127,7 @@ header nav a:hover {
 
 #landingpage_video_container {
     position: relative;
-    top: 13vw;
+    top: 6vw;
     display: flex;
     width: 100%;
     height: 30vw;
@@ -152,6 +139,13 @@ header nav a:hover {
     height: 60vw;
     padding-left: 2px;
 
+}
+
+landingpage h2 {
+    position: relative;
+    display: flex;
+    top: 20vw;
+    margin: 4vw;
 }
 
 /******ANIMATIONER*******/
