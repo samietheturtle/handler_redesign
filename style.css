@@ -21,53 +21,53 @@ body {
 #fbikon_top {
     position: relative;
     display: flex;
-    left: 7.5vw;
-    width: 3vw;
-    height: 3vw;
+    left: 8vw;
+    width: 2vw;
+    height: 2vw;
     background-image: url(ui_elementer/facebook%20ui.svg);
 }
 
 #igikon_top {
     position: relative;
     display: flex;
-    left: 8vw;
-    width: 3vw;
-    height: 3vw;
+    left: 9vw;
+    width: 2vw;
+    height: 2vw;
     background-image: url(ui_elementer/insta%20ui.svg);
 }
 
 #logo {
     position: relative;
-    left: 29.5vw;
-    width: 23vw;
-    height: 16vw;
+    left: 34vw;
+    width: 18vw;
+    height: 12vw;
     background-image: url(ui_elementer/logo_handler.svg);
 }
 
 #search_bar {
     position: relative;
-    left: 39.5vw;
+    left: 46vw;
     border-radius: 9px;
     padding: 2px;
     border: 1px solid black;
-    width: 220px;
-    height: 20px;
+    width: 217px;
+    height: 19px;
 }
 
 
 #search_icon {
     background-image: url(ui_elementer/ui_search.svg);
-    width: 1.3vw;
-    height: 1.3vw;
+    width: 1.1vw;
+    height: 1.1vw;
     margin: 0.3vw;
 }
 
 
 #basket {
     position: relative;
-    left: 40vw;
-    width: 7vw;
-    height: 7.1vw;
+    left: 47vw;
+    width: 5vw;
+    height: 5.1vw;
     background-image: url(ui_elementer/ui_basket_ny.svg);
 }
 
@@ -140,11 +140,13 @@ header nav a:hover {
 
 }
 
-landingpage h2 {
+#insta_h2 {
     position: relative;
     display: flex;
-    top: 20vw;
-    margin: 4vw;
+    top: 36vw;
+    left: 7vw;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /******ANIMATIONER*******/
