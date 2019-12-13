@@ -19,15 +19,29 @@ body {
 
 #some_ikoner_top_container {
     position: relative;
+    display: flex;
     left: 3vw;
     top: 2vw;
+    justify-content: space-between;
 }
 
-#some_ikoner_top_sprite {
+#fbikon_top {
+    width: 3vw;
+    height: 3vw;
+    background-image: url(ui_elementer/facebook%20ui.svg);
+}
+
+#igikon_top {
+    width: 3vw;
+    height: 3vw;
+    background-image: url(ui_elementer/insta%20ui.svg);
+}
+
+/*#some_ikoner_top_sprite {
     width: 13.9vw;
     height: 6vw;
     background-image: url(ui_elementer/some_iconer.svg);
-}
+}*/
 
 #logo_container {
     position: relative;
