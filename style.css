@@ -52,12 +52,11 @@ body {
     border: 1px solid black;
     width: 220px;
     height: 20px;
-
-
 }
 
+
 #search_icon {
-    background-image: url(ui_elementer/search_glass.svg);
+    background-image: url(ui_elementer/ui_search.svg);
     width: 1.3vw;
     height: 1.3vw;
     margin: 0.3vw;
