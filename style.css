@@ -6,8 +6,12 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+
 }
 
+a {
+    text-decoration: none;
+}
 
 /**********Header*******/
 
@@ -176,8 +180,7 @@ header nav a:hover {
     position: relative;
     display: flex;
     top: 36vw;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 #insta_h2 {
@@ -243,7 +246,9 @@ header nav a:hover {
     background-image: url(ui_elementer/)
 }
 
+
 .footer_txt {
+    text-decoration: none;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 500;
