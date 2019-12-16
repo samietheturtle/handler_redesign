@@ -157,17 +157,18 @@ header nav a:hover {
     color: white;
     width: 350px;
     border: 1.4px solid white;
+    padding: 20px;
 }
 
 #landingpage_video_knap {
     position: absolute;
-    bottom: -346px;
-    right: 128px;
+    bottom: -330px;
+    right: 146px;
     letter-spacing: 1px;
     font-family: 'PT Sans', sans-serif;
     color: white;
-    width: 80px;
-    padding: 7px;
+    width: 95px;
+    padding: 1px;
     border: 1.4px solid white;
     text-align: center;
 }
@@ -176,28 +177,48 @@ header nav a:hover {
 
 /*****INSTAGRAM*****/
 
+#insta_h2 {
+    position: relative;
+    display: flex;
+    top: 37vw;
+    left: 5vw;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+#instawheel_sectionwrapper {
+    position: relative;
+    top: 36vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    overflow-y: hidden;
+    height: 25vw;
+
+    border-top: 1px solid #e5e6e9;
+    border-bottom: 1px solid #e5e6e9;
+}
+
+
+/*
 #instawheel_sectionwrapper {
     position: relative;
     display: flex;
     top: 36vw;
     justify-content: space-between;
 }
+*/
 
-#insta_h2 {
-    position: relative;
-    display: flex;
-    left: 2vw;
-    letter-spacing: 1px;
-    font-family: 'PT Sans', sans-serif;
-}
 
 #insta1_pic {
     position: relative;
     width: 240px;
     height: 240px;
     background-image: url(billeder/instagram/insta1.jpg);
-    top: 6vw;
-    left: -18.5vw;
+
 
 }
 
@@ -207,8 +228,7 @@ header nav a:hover {
     width: 240px;
     height: 240px;
     background-image: url(billeder/instagram/insta2.jpg);
-    top: 6vw;
-    left: -15.7vw;
+
 }
 
 #insta3_pic {
@@ -216,8 +236,7 @@ header nav a:hover {
     width: 240px;
     height: 240px;
     background-image: url(billeder/instagram/insta3.jpg);
-    top: 6vw;
-    left: -12.7vw;
+
 }
 
 #insta4_pic {
@@ -225,8 +244,7 @@ header nav a:hover {
     width: 240px;
     height: 240px;
     background-image: url(billeder/instagram/insta4.jpg);
-    top: 6vw;
-    left: -9.7vw;
+
 }
 
 /*****FOOTER****/
@@ -234,7 +252,7 @@ header nav a:hover {
 #footer_sectionwrapper {
     position: relative;
     display: flex;
-    top: 48vw;
+    top: 39vw;
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
@@ -243,7 +261,10 @@ header nav a:hover {
 }
 
 #opening_hours_btn {
-    background-image: url(ui_elementer/)
+    background-image: url(ui_elementer/pil_ui.svg);
+    transform: rotate(270deg);
+    width: 1.5vw;
+    height: 2vw;
 }
 
 
