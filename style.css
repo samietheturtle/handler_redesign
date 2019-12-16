@@ -604,18 +604,26 @@ header nav a:hover {
 
 /*********SATINBÅND**********/
 
+article {
+    margin-left: 2vw;
+}
+
+#satinbandwrapper {
+    background-color: #E4E4E4;
+}
+
 .satinband {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .productdisplay {
-    margin: 20px;
-    border: 2px solid black;
     width: 20vw;
     height: 20vw;
     position: relative;
-    left: 4vw;
+    background-color: white;
+
 }
 
 #satinBand_1 {
@@ -713,5 +721,21 @@ header nav a:hover {
     background-image: url(billeder/produkter/produkt12.png);
     background-size: 100%;
 }
+
+.text {
+    width: 20vw;
+    background-color: white;
+    text-align: center;
+}
+
+.text h1 {
+    margin-top: 0;
+}
+
+.text p {
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+
 
 /******ANIMATIONER*******/
