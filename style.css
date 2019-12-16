@@ -249,6 +249,12 @@ header nav a:hover {
 
 /*****FOOTER****/
 
+#info_col1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 #footer_sectionwrapper {
     position: relative;
     display: flex;
