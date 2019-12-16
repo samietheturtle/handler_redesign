@@ -737,5 +737,57 @@ article {
     margin-bottom: 2vw;
 }
 
+#type {
+    position: absolute;
+    width: 10vw;
+    height: 3.5vw;
+    background-color: black;
+    left: 30vw;
+    top: 20vw;
+}
+
+#farve {
+    position: absolute;
+    width: 10vw;
+    height: 3.5vw;
+    background-color: black;
+    left: 42vw;
+    top: 20vw;
+}
+
+
+#materiale {
+    position: absolute;
+    width: 10vw;
+    height: 3.5vw;
+    background-color: black;
+    left: 54vw;
+    top: 20vw;
+}
+
+#type h1 {
+    color: white;
+    text-align: center;
+    font-family: ps sans, sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#farve h1 {
+    color: white;
+    text-align: center;
+    font-family: ps sans, sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#materiale h1 {
+    color: white;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+
+}
 
 /******ANIMATIONER*******/
