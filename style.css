@@ -615,8 +615,103 @@ header nav a:hover {
     width: 20vw;
     height: 20vw;
     position: relative;
-    overflow: hidden;
     left: 4vw;
+}
+
+#satinBand_1 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt1.png);
+    background-size: 100%;
+}
+
+#satinBand_2 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt2.png);
+    background-size: 100%;
+}
+
+#satinBand_3 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt3.png);
+    background-size: 100%;
+}
+
+#satinBand_4 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt4.png);
+    background-size: 100%;
+}
+
+#satinBand_5 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt5.png);
+    background-size: 100%;
+}
+
+#satinBand_6 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt6.png);
+    background-size: 100%;
+}
+
+#satinBand_7 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt7.png);
+    background-size: 100%;
+}
+
+#satinBand_8 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt8.png);
+    background-size: 100%;
+}
+
+#satinBand_9 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt9.png);
+    background-size: 100%;
+}
+
+#satinBand_10 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt10.png);
+    background-size: 100%;
+}
+
+#satinBand_11 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt11.png);
+    background-size: 100%;
+}
+
+#satinBand_12 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt12.png);
+    background-size: 100%;
 }
 
 /******ANIMATIONER*******/
