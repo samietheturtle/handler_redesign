@@ -55,11 +55,12 @@ a {
 #search_bar {
     position: relative;
     left: 46vw;
+    top: 0.2vw;
     border-radius: 9px;
     padding: 2px;
     border: 1px solid black;
     width: 217px;
-    height: 19px;
+    height: 15px;
 }
 
 
@@ -67,15 +68,15 @@ a {
     background-image: url(ui_elementer/ui_search.svg);
     width: 1.1vw;
     height: 1.1vw;
-    margin: 0.3vw;
+    margin: 0.1vw;
 }
 
 
 #basket {
     position: relative;
     left: 47vw;
-    width: 5vw;
-    height: 5.1vw;
+    width: 2.725vw;
+    height: 2vw;
     background-image: url(ui_elementer/ui_basket_ny.svg);
 }
 
@@ -299,16 +300,22 @@ header nav a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    top: 50vw;
+    top: 45vw;
+    padding-bottom: 2vw;
 }
 
 #fbicon_btm {
+    position: relative;
+    display: flex;
+    left: 5vw;
     width: 2vw;
     height: 2vw;
     background-image: url(ui_elementer/facebook%20ui.svg);
 }
 
 #igicon_btm {
+    position: relative;
+    display: flex;
     width: 2vw;
     height: 2vw;
     background-image: url(ui_elementer/insta%20ui.svg);
