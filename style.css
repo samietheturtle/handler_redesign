@@ -604,45 +604,19 @@ header nav a:hover {
 
 /*********SATINBÅND**********/
 
+.satinband {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.productdisplay {
+    margin: 20px;
+    border: 2px solid black;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    overflow: hidden;
+    left: 4vw;
+}
 
 /******ANIMATIONER*******/
