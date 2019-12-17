@@ -367,10 +367,62 @@ header nav a:hover {
 
 
 /******BAND*******/
+#headline {
+    align-content: center;
+}
+
+
+.baand_sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 
 
+}
 
+.product_pic {
+    width: 25vw;
+    height: 25vw;
+    align-content: center;
+    object-fit: cover;
+
+}
+
+
+.col_top {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+
+}
+
+
+.col_btm {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+
+
+.product_btn {
+    position: absolute;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    width: 95px;
+    padding: 1px;
+    border: 1.4px solid white;
+    text-align: center;
+}
 
 
 
