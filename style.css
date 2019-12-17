@@ -610,12 +610,14 @@ article {
 
 #satinbandwrapper {
     background-color: #E4E4E4;
+
 }
 
 .satinband {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .productdisplay {
@@ -787,6 +789,63 @@ article {
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     font-weight: 50;
+
+}
+
+.overlay {
+    width: 20vw;
+    height: 25.4vw;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.PutIKurv {
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 3vw;
+    width: 10vw;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    border: 1.4px solid white;
+
+
+}
+
+.overlay h2,
+h3 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 50;
+    text-transform: uppercase;
+
+}
+
+.overlay h1 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 50;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.overlay h2 {
+    top: 6vw;
+    left: 3vw;
+
+}
+
+.overlay h3 {
+    top: 15vw;
+    left: 7vw;
+}
+
+.hide {
+    display: none;
 
 }
 
