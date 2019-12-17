@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-
+    font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -318,52 +318,61 @@ header nav a:hover {
 
 /*******ABOUTUS*******/
 
+#aboutus_wrapper {
+    position: relative;
+    background-color: #E1E1E1;
+    top: 1vw;
+}
+
+#about_band {
+    padding: 0px 138px;
+    width: 80%;
+    height: 28vw;
+    margin-top: 50px;
+    left: 30vw;
+}
+
+.aboutus_header {
+    padding: 0px 138px;
+    font-weight: normal;
+}
 
 
+#aboutus_txt {
+    padding: 0px 138px 60px;
+}
 
+#portrait_wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 2vw;
+    padding-bottom: 2vw;
+}
 
+.portrait_pic {
+    width: 20vw;
+    height: 20vw;
+}
 
+#portrait_txt_wrapper {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
 
+#about_facade {
+    position: relative;
+    top: 5vw;
+    justify-content: center;
+    padding: 0px 138px;
+    width: 80%;
+}
 
+.medarbejder_navn {
+    font-size: 2rem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /******BAND*******/
 #headline {
