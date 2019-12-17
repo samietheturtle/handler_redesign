@@ -45,17 +45,18 @@ a {
     left: 34vw;
     width: 18vw;
     height: 12vw;
-    background-image: url(ui_elementer/logo_handler.svg);
+    background-image: url(ui_elementer/logohandler.svg);
 }
 
 #search_bar {
     position: relative;
     left: 46vw;
+    top: 0.2vw;
     border-radius: 9px;
     padding: 2px;
     border: 1px solid black;
     width: 217px;
-    height: 19px;
+    height: 15px;
 }
 
 
@@ -63,15 +64,15 @@ a {
     background-image: url(ui_elementer/ui_search.svg);
     width: 1.1vw;
     height: 1.1vw;
-    margin: 0.3vw;
+    margin: 0.1vw;
 }
 
 
 #basket {
     position: relative;
     left: 47vw;
-    width: 5vw;
-    height: 5.1vw;
+    width: 2.725vw;
+    height: 2vw;
     background-image: url(ui_elementer/ui_basket_ny.svg);
 }
 
@@ -86,7 +87,7 @@ a {
     letter-spacing: 2px;
     border-bottom: 1px solid #555;
     font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
+    font-weight: regular;
     padding-bottom: 2.5vw;
 }
 
@@ -295,16 +296,22 @@ header nav a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    top: 50vw;
+    top: 45vw;
+    padding-bottom: 2vw;
 }
 
 #fbicon_btm {
+    position: relative;
+    display: flex;
+    left: 5vw;
     width: 2vw;
     height: 2vw;
     background-image: url(ui_elementer/facebook%20ui.svg);
 }
 
 #igicon_btm {
+    position: relative;
+    display: flex;
     width: 2vw;
     height: 2vw;
     background-image: url(ui_elementer/insta%20ui.svg);
@@ -479,9 +486,34 @@ header nav a:hover {
 
 
 
+#confirm_wrapper {
+    position: relative;
+
+    width: 100%;
+    height: 30vw;
+}
 
 
+#order_confirm_h1 {
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: regular;
+    font-size: 1.5rem;
+}
 
+#order_confirm_txt {
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: regular;
+    font-size: 0.8rem;
+
+}
+
+
+#order_confirm_img {
+    width: 59vw;
+    height: 30vw;
+}
 
 
 
@@ -560,45 +592,190 @@ header nav a:hover {
 
 /*********SATINBÅND**********/
 
+article {
+    margin-left: 2vw;
+}
+
+#satinbandwrapper {
+    background-color: #E4E4E4;
+}
+
+.satinband {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productdisplay {
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    background-color: white;
+
+}
+
+#satinBand_1 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt1.png);
+    background-size: 100%;
+}
+
+#satinBand_2 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt2.png);
+    background-size: 100%;
+}
+
+#satinBand_3 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt3.png);
+    background-size: 100%;
+}
+
+#satinBand_4 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt4.png);
+    background-size: 100%;
+}
+
+#satinBand_5 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt5.png);
+    background-size: 100%;
+}
+
+#satinBand_6 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt6.png);
+    background-size: 100%;
+}
+
+#satinBand_7 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt7.png);
+    background-size: 100%;
+}
+
+#satinBand_8 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt8.png);
+    background-size: 100%;
+}
+
+#satinBand_9 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt9.png);
+    background-size: 100%;
+}
+
+#satinBand_10 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt10.png);
+    background-size: 100%;
+}
+
+#satinBand_11 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt11.png);
+    background-size: 100%;
+}
+
+#satinBand_12 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(billeder/produkter/produkt12.png);
+    background-size: 100%;
+}
+
+.text {
+    width: 20vw;
+    background-color: white;
+    text-align: center;
+}
+
+.text h1 {
+    margin-top: 0;
+}
+
+.text p {
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+
+#type {
+    position: absolute;
+    width: 10vw;
+    height: 3.5vw;
+    background-color: black;
+    left: 30vw;
+    top: 20vw;
+}
+
+#farve {
+    position: absolute;
+    width: 10vw;
+    height: 3.5vw;
+    background-color: black;
+    left: 42vw;
+    top: 20vw;
+}
 
 
+#materiale {
+    position: absolute;
+    width: 10vw;
+    height: 3.5vw;
+    background-color: black;
+    left: 54vw;
+    top: 20vw;
+}
 
+#type h1 {
+    color: white;
+    text-align: center;
+    font-family: ps sans, sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+}
 
+#farve h1 {
+    color: white;
+    text-align: center;
+    font-family: ps sans, sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+}
 
+#materiale h1 {
+    color: white;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 50;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /******ANIMATIONER*******/
