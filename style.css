@@ -54,7 +54,7 @@ a {
     top: 0.2vw;
     border-radius: 9px;
     padding: 2px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.87);
     width: 217px;
     height: 15px;
 }
@@ -85,7 +85,7 @@ a {
     top: 1vw;
     text-align: center;
     letter-spacing: 2px;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #707070;
     font-family: 'PT Sans', sans-serif;
     padding-bottom: 2.5vw;
 }
@@ -367,7 +367,16 @@ header nav a:hover {
 
 /******BAND*******/
 #headline {
-    align-content: center;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    margin-top: 0.7rem;
+    color: black;
+    text-align: center;
+
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 0;
+    background-color: #E4E4E4;
 }
 
 
@@ -375,9 +384,7 @@ header nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
+    background-color: #E4E4E4;
 }
 
 .product_pic {
@@ -392,7 +399,7 @@ header nav a:hover {
 .col_top {
     flex-grow: 1;
     flex-basis: 400px;
-    margin: 8rem;
+    margin: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -404,47 +411,121 @@ header nav a:hover {
 .col_btm {
     flex-grow: 1;
     flex-basis: 400px;
-    margin: 8rem;
+    margin: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
 }
 
+.text_container1 {
+    display: flex;
+    justify-content: center;
 
-.product_btn {
-    position: absolute;
-    letter-spacing: 1px;
-    font-family: 'PT Sans', sans-serif;
-    color: white;
-    width: 95px;
-    padding: 1px;
-    border: 1.4px solid white;
-    text-align: center;
+}
+
+.text_container2 {
+    position: relative;
+
 }
 
 
+/*
+.product_btn {
+    position: absolute;
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+    text-align: center;
+}
+*/
+
+.product_wrapper1,
+.product_wrapper2,
+.product_wrapper3,
+.product_wrapper4,
+.product_wrapper5,
+.product_wrapper6 {
+    display: flex;
+    position: relative;
+}
 
 
+.product_btn1 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
+
+.product_btn2 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
+.product_btn3 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
+.product_btn4 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
+
+.product_btn5 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
+.product_btn6 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
 
-
-
-
-
-
-
-
-
-
-
-
-
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
 
