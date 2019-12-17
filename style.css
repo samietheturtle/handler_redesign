@@ -323,22 +323,43 @@ header nav a:hover {
 
 /*******ABOUTUS*******/
 
-#aboutus {}
 
 #aboutus_wrapper {
     position: relative;
-    top: 4vw;
-    width: 100%;
+    background-color: #E1E1E1;
+    top: 1vw;
+}
 
+#about_band {
+    padding: 0px 138px;
+    width: 80%;
+    height: 28vw;
+    margin-top: 50px;
+    left: 30vw;
+}
+
+#about_h2 {
+    padding: 0px 138px;
 }
 
 #aboutus_txt {
     font-family: 'PT Sans', sans-serif;
+    padding: 0px 138px 60px;
 }
 
-.portrait {
+#portrait_wrapper {
     position: relative;
-    top: 9vw;
+    display: flex;
+    justify-content: center;
+    top: 2vw;
+    padding-bottom: 2vw;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#about_facade {
+    position: relative;
+    top: 5vw;
+    justify-content: center;
 
 }
 
