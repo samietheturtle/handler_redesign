@@ -394,7 +394,7 @@ header nav a:hover {
 }
 
 
-.baand_sectionwrapper {
+#baand_sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -410,7 +410,7 @@ header nav a:hover {
 }
 
 
-.col_top {
+#band_col_top {
     flex-grow: 1;
     flex-basis: 400px;
     margin: 3rem;
