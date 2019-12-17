@@ -87,7 +87,6 @@ a {
     letter-spacing: 2px;
     border-bottom: 1px solid #555;
     font-family: 'PT Sans', sans-serif;
-    font-weight: regular;
     padding-bottom: 2.5vw;
 }
 
@@ -495,36 +494,35 @@ header nav a:hover {
 
 /*****CONFIRMATION*******/
 
-
-
-
 #confirm_wrapper {
     position: relative;
 
-    width: 100%;
-    height: 30vw;
 }
 
-
 #order_confirm_h1 {
+    position: relative;
     letter-spacing: 2px;
     font-family: 'PT Sans', sans-serif;
-    font-weight: regular;
     font-size: 1.5rem;
+    left: 1vw;
+    top: 1vw;
 }
 
 #order_confirm_txt {
+    position: relative;
     letter-spacing: 2px;
     font-family: 'PT Sans', sans-serif;
-    font-weight: regular;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    left: 1vw;
+    bottom: 0.5vw;
 
 }
 
 
-#order_confirm_img {
-    width: 59vw;
-    height: 30vw;
+
+
+img {
+    width: 100%;
 }
 
 
