@@ -116,7 +116,7 @@ a {
 
 header nav a {
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 20px px;
     color: grey;
 
 }
@@ -478,7 +478,6 @@ header nav a:hover {
 
 
 #footer_sectionwrapper {
-
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -487,11 +486,9 @@ header nav a:hover {
     margin-left: 150px;
     margin-right: 150px;
     padding-bottom: 2.5rem;
-
-
 }
 
-.footer_txt {
+.footer_txt_index {
     text-decoration: none;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -505,6 +502,118 @@ header nav a:hover {
     padding-right: 20px;
     position: relative;
     bottom: -39vw;
+}
+
+.footer_txt_band {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -3vw;
+}
+
+.footer_txt_aboutus {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -13vw;
+}
+
+.footer_txt_checkout {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -3vw;
+}
+
+.footer_txt_basket {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -3vw;
+}
+
+.footer_txt_confirmation {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -3vw;
+}
+
+.footer_txt_product {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -39vw;
+}
+
+.footer_txt_satinband {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -3vw;
 }
 
 
@@ -534,8 +643,6 @@ header nav a:hover {
     height: 2vw;
     background-image: url(ui_elementer/insta%20ui.svg);
 }
-
-
 
 
 
