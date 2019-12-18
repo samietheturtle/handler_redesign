@@ -786,7 +786,6 @@ header nav a:hover {
 
 #aboutus_wrapper {
     position: relative;
-    background-color: #E1E1E1;
     top: 1vw;
     margin-left: 99px;
     margin-right: 99px;
@@ -801,6 +800,7 @@ header nav a:hover {
     padding-left: 10px;
     padding-right: 10px;
     font-weight: normal;
+    border-top: 1.4px solid #e5e6e9;
 }
 
 
