@@ -621,7 +621,7 @@ header nav a:hover {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    bottom: -39vw;
+    bottom: -36vw;
 }
 
 .footer_txt_satinband {
@@ -1455,15 +1455,18 @@ forsendelse_txt {
 
 #order_confirm_h1 {
     position: relative;
+    text-align: center;
     letter-spacing: 2px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.5rem;
     left: 1vw;
     top: 1vw;
+    border-top: 1.4px solid #e5e6e9;
 }
 
 #order_confirm_txt {
     position: relative;
+    text-align: center;
     letter-spacing: 2px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1rem;
@@ -1515,7 +1518,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    top: 5vw;
+    top: 6vw;
     left: 4vw;
     width: 90vw;
     height: 36vw;
