@@ -1675,6 +1675,8 @@ article {
 }
 */
 
+
+
 .satinband {
     display: flex;
     flex-wrap: wrap;
@@ -1688,8 +1690,7 @@ article {
     height: 20vw;
     position: relative;
     background-color: white;
-    border-top: 1.4px solid #e5e6e9;
-    border-bottom: 1.4px solid #e5e6e9;
+
 
 }
 
@@ -1790,12 +1791,12 @@ article {
 }
 
 .text {
-    background-color: #E4E4E4;
     padding-top: 1vw;
     padding-bottom: 0.5vw;
     width: 20vw;
     text-align: center;
     position: relative;
+    border-top: 1.4px solid #e5e6e9;
 
 }
 
@@ -1868,7 +1869,7 @@ article {
 .PutIKurv {
     position: absolute;
     top: 7.5vw;
-    left: 5.5vw;
+    left: 6.5vw;
     background-color: rgba(0, 0, 0, 0.5);
     width: 10vw;
     overflow: hidden;
