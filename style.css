@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-
+    font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -75,6 +75,31 @@ a {
     background-image: url(ui_elementer/ui_basket_ny.svg);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /******NAVI******/
 
 
@@ -106,6 +131,41 @@ header nav a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********LANDINGPAGE*******/
 
 #splash_sectionwrapper {
@@ -127,6 +187,52 @@ header nav a:hover {
     padding: 10px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*****VIDEO*****/
@@ -172,6 +278,64 @@ header nav a:hover {
     border: 1.4px solid white;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -246,6 +410,55 @@ header nav a:hover {
     background-image: url(billeder/instagram/insta4.jpg);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*****FOOTER****/
 
@@ -323,6 +536,51 @@ header nav a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*******ABOUTUS*******/
 
 
@@ -381,6 +639,57 @@ header nav a:hover {
     font-size: 2rem;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -462,6 +771,67 @@ header nav a:hover {
     position: relative;
     padding: 9px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -891,6 +1261,12 @@ forsendelse_txt {
 
 
 
+
+
+
+
+
+
 /*****CONFIRMATION*******/
 
 #confirm_wrapper {
@@ -923,6 +1299,10 @@ forsendelse_txt {
 img {
     width: 100%;
 }
+
+
+
+
 
 
 
@@ -1062,6 +1442,45 @@ img {
     top: -25px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*********SATINBÅND**********/
 
@@ -1344,7 +1763,139 @@ h3 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /******ANIMATIONER*******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /******MEDIA QUERY*******/
 
