@@ -1327,124 +1327,82 @@ p {
 
 /******CHECKOUT******/
 
+/******CHECKOUT******/
+
 #checkout {
-    background-color: #E4E4E4;
-    padding-top: 1rem;
-    padding-bottom: 50vw;
-}
-
-.order_summary_container {
-    background-color: black;
-    height: 18vw;
-    width: 33vw;
-    margin: 4rem;
-    padding: 2rem;
-}
-
-.check_order_summary_h2 {
-    color: white;
-
-}
-
-.checkout_table {
-    color: white;
-    margin-bottom: 2rem;
-
-}
-
-.add_comment {
-    color: white;
-    margin-bottom: 2rem;
-
-}
-
-.total {
-    color: white;
-    margin-bottom: 2rem;
-
-}
-
-
-
-.forsendelse_container {
-    background-color: white;
-    height: 18vw;
-    width: 33vw;
-    margin: 4rem;
-    padding: 2rem;
-
     display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    background-color: #E1E1E1;
+    height: 200vw;
+    padding: 3rem;
 }
 
-#forsendelse_h2 {
-    top: 40vw;
-    left: 20vw;
-}
-
-.forsendelse_kategori {
-    text-align: right;
-    left: 50vw;
-}
-
-forsendelse_txt {
-    width: 200px;
-    padding: 2rem;
-}
-
-.forsendelse_h2 {
-    align-items: flex-start;
-    height: 20px;
-}
-
-.circle_wrapper {
+.section_wrapper1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-grow: 1;
-    flex-basis: 200px;
-    height: 160px;
+    padding-left: 8rem;
 
 }
 
+.section_wrapper2 {
 
-.circle {
-    height: 14px;
-    width: 14px;
-    border: solid #707070;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-
-
-/*betalings container*/
-
-.betalingsmetode_container {
-    background-color: white;
-    height: 18vw;
-    width: 33vw;
-    margin: 4rem;
-    padding: 2rem;
-}
-
-
-.payment_pic1 {
-    position: relative;
+    flex-grow: 2;
     display: flex;
-    left: 8vw;
-    width: 4vw;
-    height: 3.8vw;
-    background-image: url(ui_elementer/cc-mastercard-brands.svg);
+    flex-direction: column;
+    padding-left: 0rem;
 }
 
-.payment_pic2 {
+.odre_beskrivelse {
+    background-image: url(checkout_files/odrebeskrivelse.svg);
+    height: 239px;
+    width: 500px;
+    background-size: 100%;
     position: relative;
-    display: flex;
-    left: 8vw;
-    width: 4vw;
-    height: 3.7vw;
-    background-image: url(ui_elementer/cc-visa-brands.svg);
+    margin-bottom: 3rem;
+    float: left;
 }
+
+.payment_method {
+    background-image: url(checkout_files/betalingsmetode.svg);
+    height: 239px;
+    width: 500px;
+    background-size: 100%;
+}
+
+.faktura {
+    background-image: url(checkout_files/fakturaoplysninger.svg);
+    height: 358px;
+    width: 500px;
+    background-size: 100%;
+    margin-bottom: 3rem;
+}
+
+.shipping {
+    background-image: url(checkout_files/forsendelsesmetode.svg);
+    height: 191px;
+    width: 504px;
+    background-size: 100%;
+    margin-bottom: 3rem;
+}
+
+.confirm {
+    background-image: url(checkout_files/confirm.svg);
+    height: 271px;
+    width: 500px;
+    background-size: 100%;
+}
+
+.confirm_btn {
+    background-image: url(checkout_files/pay_btn.svg);
+    height: 43px;
+    width: 401px;
+    margin-top: 11.5rem;
+    margin-left: 3rem;
+}
+
+
 
 /*****CONFIRMATION*******/
 
