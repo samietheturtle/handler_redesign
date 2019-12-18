@@ -203,12 +203,12 @@ header nav a:hover {
 }
 
 .layer2 {
-    background-image: url(billeder/splash_bar/snore_splash.png);
+    background-image: url(billeder/splash_bar/splash2.png);
     animation: layer2Anim 10s infinite;
 }
 
 .layer3 {
-    background-image: url(billeder/content/band1.jpg);
+    background-image: url(billeder/splash_bar/splash3.png);
     animation: layer3Anim 10s infinite;
 }
 
