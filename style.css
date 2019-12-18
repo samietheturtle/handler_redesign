@@ -28,7 +28,7 @@ button {
 #fbikon_top {
     position: relative;
     display: flex;
-    left: 8vw;
+    left: 6vw;
     width: 2vw;
     height: 2vw;
     background-image: url(ui_elementer/facebook%20ui.svg);
@@ -37,7 +37,7 @@ button {
 #igikon_top {
     position: relative;
     display: flex;
-    left: 9vw;
+    left: 7vw;
     width: 2vw;
     height: 2vw;
     background-image: url(ui_elementer/insta%20ui.svg);
@@ -45,12 +45,13 @@ button {
 
 #logo {
     position: relative;
-    left: 37vw;
+    left: 34.5vw;
     width: 18vw;
     height: 12vw;
     background-image: url(ui_elementer/logohandler.svg);
 }
 
+/*
 #search_bar {
     position: relative;
     left: 52vw;
@@ -61,19 +62,22 @@ button {
     width: 217px;
     height: 15px;
 }
+*/
 
 
 #search_icon {
+    position: relative;
+    left: 64vw;
     background-image: url(ui_elementer/ui_search.svg);
-    width: 1.1vw;
-    height: 1.1vw;
-    margin: 0.1vw;
+    width: 1.8vw;
+    height: 1.8vw;
+
 }
 
 
 #basket {
     position: relative;
-    left: 53vw;
+    left: 65vw;
     width: 2.725vw;
     height: 2vw;
     background-image: url(ui_elementer/ui_basket_ny.svg);
@@ -168,36 +172,55 @@ header nav a:hover {
 
 
 
-
 /********LANDINGPAGE*******/
 
-#splash_sectionwrapper {
+
+.slideShow {
     position: relative;
-    top: 4vw;
-    display: flex;
-    align-items: center;
+    overflow-x: hidden;
+    top: 2.5vw;
+}
 
+.placeHolder {
     width: 100%;
-    overflow-y: hidden;
-    height: 30vw;
-
-    border-top: 0.5px solid #555;
-    margin-top: -4vw;
-
+    visibility: hidden;
 }
 
-#splash1,
-#splash2,
-#splash3 {
-    width: 80%;
-    height: 30vw;
-    padding: 10px;
-
+.layer1,
+.layer2,
+.layer3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.layer1 {
+    background-image: url(billeder/splash_bar/splash1.png);
+}
 
+.layer2 {
+    background-image: url(billeder/splash_bar/snore_splash.png);
+    animation: layer2Anim 10s infinite;
+}
 
+.layer3 {
+    background-image: url(billeder/content/band1.jpg);
+    animation: layer3Anim 10s infinite;
+}
 
+.slideOverlay {
+    background-image: url(slideshow/overlay.png);
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 
 
 
@@ -247,7 +270,7 @@ header nav a:hover {
 #landingpage_video_container {
 
     position: relative;
-    top: 6vw;
+    top: 10vw;
     width: 100%;
     text-align: justify;
     color: white;
@@ -255,17 +278,18 @@ header nav a:hover {
     margin-right: 2vw;
 }
 
-#video {}
+
 
 #landingpage_video_txt {
     position: absolute;
-    bottom: -300px;
-    right: 8px;
+    top: 71px;
+    right: 72px;
     letter-spacing: 1px;
     font-family: 'PT Sans', sans-serif;
-    color: white;
+    color: black;
     width: 350px;
-    border: 1.4px solid white;
+    border-top: 1.4px solid #e5e6e9;
+    border-bottom: 1.4px solid #e5e6e9;
     padding: 20px;
 }
 
@@ -278,7 +302,8 @@ header nav a:hover {
     color: white;
     width: 95px;
     padding: 1px;
-    border: 1.4px solid white;
+    border-top: 1.4px solid #e5e6e9;
+    border-bottom: 1.4px solid #e5e6e9;
     text-align: center;
 }
 
@@ -347,8 +372,8 @@ header nav a:hover {
 #insta_h2 {
     position: relative;
     display: flex;
-    top: 37vw;
-    left: 5vw;
+    top: 15vw;
+    margin-left: 56px;
     letter-spacing: 1px;
     font-family: 'PT Sans', sans-serif;
 
@@ -356,7 +381,7 @@ header nav a:hover {
 
 #instawheel_sectionwrapper {
     position: relative;
-    top: 36vw;
+    top: 14vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -366,7 +391,7 @@ header nav a:hover {
 
     border-top: 1px solid #e5e6e9;
     border-bottom: 1px solid #e5e6e9;
-    margin-left: 143px;
+
 }
 
 
@@ -506,7 +531,7 @@ header nav a:hover {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    bottom: -39vw;
+    bottom: -17vw;
 }
 
 .footer_txt_band {
@@ -620,7 +645,7 @@ header nav a:hover {
     display: flex;
     justify-content: center;
     left: -3vw;
-    bottom: -37vw;
+    bottom: -15vw;
     padding-bottom: 2vw;
     min-height: 4vw;
 }
@@ -870,19 +895,21 @@ header nav a:hover {
 
 
 /******BAND*******/
+/*
 #band {
     background-color: #E4E4E4;
 }
+*/
 
 .headline {
-    padding-top: 2.4rem;
+    padding-top: 1.4rem;
     text-align: center;
     font-family: "PT Sans", sans-serif;
     font-size: 30px;
     font-weight: 50;
-    margin-top: 1vw;
     text-transform: uppercase;
     letter-spacing: 0.01rem;
+    border-top: 1.4px solid #e5e6e9;
 }
 
 
@@ -891,6 +918,7 @@ header nav a:hover {
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
+    top: -4vw;
 }
 
 .product_pic {
@@ -1639,17 +1667,19 @@ article {
     margin-left: 2vw;
 }
 
+/*
 #satinbandwrapper {
     background-color: #E4E4E4;
 
 
 }
+*/
 
 .satinband {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 4vw;
+    margin-top: 1vw;
 }
 
 .productdisplay {
@@ -1658,6 +1688,8 @@ article {
     height: 20vw;
     position: relative;
     background-color: white;
+    border-top: 1.4px solid #e5e6e9;
+    border-bottom: 1.4px solid #e5e6e9;
 
 }
 
@@ -1911,6 +1943,7 @@ h3 {
     margin-top: 2vw;
     color: dimgray;
     letter-spacing: 0.01rem;
+    border-top: 1.4px solid #e5e6e9;
 }
 
 
@@ -1967,7 +2000,53 @@ h3 {
 
 /******ANIMATIONER*******/
 
+@keyframes layer2Anim {
+    0% {
+        opacity: 0;
+    }
 
+    17% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    67% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes layer3Anim {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    67% {
+        opacity: 1;
+    }
+
+    83% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
 
 
 
