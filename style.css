@@ -53,7 +53,7 @@ a {
     top: 0.2vw;
     border-radius: 9px;
     padding: 2px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.87);
     width: 217px;
     height: 15px;
 }
@@ -83,8 +83,11 @@ a {
     top: 1vw;
     text-align: center;
     letter-spacing: 2px;
+<<<<<<< HEAD
+=======
+    border-bottom: 1px solid #707070;
+>>>>>>> origin/master
     font-family: 'PT Sans', sans-serif;
-    font-weight: regular;
     padding-bottom: 2.5vw;
     border-bottom: 1px solid #555;
 }
@@ -322,6 +325,7 @@ header nav a:hover {
     background-image: url(ui_elementer/insta%20ui.svg);
 }
 
+<<<<<<< HEAD
 
 /*******ABOUTUS*******/
 
@@ -343,9 +347,55 @@ header nav a:hover {
     padding-left: 10px;
     padding-right: 10px;
     font-weight: normal;
+=======
+/*******ABOUTUS*******/
+
+
+#aboutus_wrapper {
+    position: relative;
+    background-color: #E1E1E1;
+    top: 1vw;
+}
+
+#about_band {
+    padding: 0px 138px;
+    width: 80%;
+    height: 28vw;
+    margin-top: 50px;
+    left: 30vw;
+}
+
+.aboutus_header {
+    padding: 0px 138px;
+    font-weight: normal;
 }
 
 
+#aboutus_txt {
+    padding: 0px 138px 60px;
+}
+
+#portrait_wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.portrait_pic {
+    width: 20vw;
+    height: 20vw;
+>>>>>>> origin/master
+}
+
+#portrait_txt_wrapper {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+<<<<<<< HEAD
 #aboutus_txt {
     padding-left: 10px;
     padding-bottom: 25px;
@@ -540,6 +590,20 @@ header nav a:hover {
     font-weight: 50;
 }
 
+=======
+#about_facade {
+    position: relative;
+    top: 5vw;
+    justify-content: center;
+    padding: 0px 138px;
+    width: 80%;
+}
+
+.medarbejder_navn {
+    font-size: 2rem;
+
+}
+>>>>>>> origin/master
 
 #product {
     position: absolute;
@@ -572,6 +636,7 @@ header nav a:hover {
     border-bottom: 1px solid lightgrey;
 }
 
+<<<<<<< HEAD
 #totalpris {
     position: absolute;
     top: 235px;
@@ -581,9 +646,25 @@ header nav a:hover {
     position: absolute;
     top: 130px;
     display: flex;
+=======
+/******BAND*******/
+#headline {
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    margin-top: 0.7rem;
+    color: black;
+    text-align: center;
+
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 0;
+    background-color: #E4E4E4;
+}
+>>>>>>> origin/master
 
 }
 
+<<<<<<< HEAD
 #lommeregner {
     position: relative;
     top: 14px;
@@ -594,6 +675,20 @@ header nav a:hover {
     position: relative;
     text-align: center;
     width: 10px;
+=======
+#baand_sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E4E4E4;
+}
+
+.product_pic {
+    width: 25vw;
+    height: 25vw;
+    align-content: center;
+    object-fit: cover;
+>>>>>>> origin/master
 
 }
 
@@ -602,6 +697,7 @@ p {
     font-family: 'PT Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 #barsketTop h1 {
     font-family: 'PT Sans', sans-serif;
     font-weight: 50;
@@ -615,6 +711,17 @@ p {
     font-size: 20px;
     margin: 0;
     color: gray;
+=======
+#band_col_top {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+
+>>>>>>> origin/master
 }
 
 #kommentar input[type=text] {
@@ -627,6 +734,7 @@ p {
     color: gray;
 }
 
+<<<<<<< HEAD
 #tilfoj {
     position: relative;
     left: 470px;
@@ -662,6 +770,27 @@ p {
     left: 320px;
     top: 20px;
     opacity: 0.5;
+=======
+.col_btm {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.text_container1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.text_container2 {
+    position: relative;
+
+>>>>>>> origin/master
 }
 
 #outline {
@@ -672,6 +801,7 @@ p {
     top: 20px;
     border-right: 1px solid black;
 
+<<<<<<< HEAD
 }
 
 #redigereTekst {
@@ -682,29 +812,104 @@ p {
     font-family: 'PT Sans', sans-serif;
     color: black;
     font-size: 13px;
+=======
+/*
+.product_btn {
+    position: absolute;
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+    text-align: center;
+}
+*/
+
+.product_wrapper1,
+.product_wrapper2,
+.product_wrapper3,
+.product_wrapper4,
+.product_wrapper5,
+.product_wrapper6 {
+    display: flex;
+    position: relative;
+>>>>>>> origin/master
 }
 
 
+.product_btn1 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
+
+.product_btn2 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
+.product_btn3 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
+.product_btn4 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
+
+.product_btn5 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
+
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
+.product_btn6 {
+    letter-spacing: 1px;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.79);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    position: absolute;
+    margin: 2rem;
+    text-align: center;
+    top: 118px;
+}
 
 
 
@@ -859,10 +1064,44 @@ forsendelse_txt {
 
 
 
+<<<<<<< HEAD
+
+=======
+/*****CONFIRMATION*******/
+
+#confirm_wrapper {
+    position: relative;
+
+}
+
+#order_confirm_h1 {
+    position: relative;
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+    left: 1vw;
+    top: 1vw;
+}
+
+#order_confirm_txt {
+    position: relative;
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    left: 1vw;
+    bottom: 0.5vw;
+>>>>>>> origin/master
 
 
 
+<<<<<<< HEAD
+=======
 
+
+img {
+    width: 100%;
+}
+>>>>>>> origin/master
 
 
 
