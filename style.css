@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    background-color: white;
+}
 
 #headerwrapper {
     display: flex;
@@ -105,18 +109,17 @@ a {
 
 #nav_wrapper {
     position: relative;
-    top: 1vw;
+    top: 2vw;
     text-align: center;
     letter-spacing: 2px;
     font-family: 'PT Sans', sans-serif;
     font-weight: regular;
     padding-bottom: 2.5vw;
-    border-bottom: 1px solid #555;
 }
 
 header nav a {
     text-decoration: none;
-    padding: 20px px;
+    padding: 20px;
     color: grey;
 
 }
@@ -177,6 +180,9 @@ header nav a:hover {
     width: 100%;
     overflow-y: hidden;
     height: 30vw;
+
+    border-top: 0.5px solid #555;
+    margin-top: -4vw;
 
 }
 
@@ -491,7 +497,6 @@ header nav a:hover {
 .footer_txt_index {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -507,7 +512,6 @@ header nav a:hover {
 .footer_txt_band {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -523,7 +527,6 @@ header nav a:hover {
 .footer_txt_aboutus {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -539,7 +542,6 @@ header nav a:hover {
 .footer_txt_checkout {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -555,7 +557,6 @@ header nav a:hover {
 .footer_txt_basket {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -571,7 +572,6 @@ header nav a:hover {
 .footer_txt_confirmation {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -587,7 +587,6 @@ header nav a:hover {
 .footer_txt_product {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -603,7 +602,6 @@ header nav a:hover {
 .footer_txt_satinband {
     text-decoration: none;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 500;
     color: #000;
     font-family: 'PT Sans', sans-serif;
@@ -617,7 +615,77 @@ header nav a:hover {
 }
 
 
-#some_sectionwrapper {
+#some_sectionwrapper_index {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -37vw;
+    padding-bottom: 2vw;
+    min-height: 4vw;
+}
+
+#some_sectionwrapper_band {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -3vw;
+    padding-bottom: 2vw;
+    min-height: 4vw;
+}
+
+#some_sectionwrapper_about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -11vw;
+    padding-bottom: 2vw;
+    min-height: 4vw;
+}
+
+#some_sectionwrapper_basket {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -1vw;
+    padding-bottom: 2vw;
+    min-height: 4vw;
+}
+
+#some_sectionwrapper_confirmation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -1vw;
+    padding-bottom: 2vw;
+    min-height: 4vw;
+}
+
+#some_sectionwrapper_product {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -37vw;
+    padding-bottom: 2vw;
+    min-height: 4vw;
+}
+
+#some_sectionwrapper_satinband {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -1vw;
+    padding-bottom: 2vw;
+    min-height: 4vw;
+}
+
+#some_sectionwrapper_checkout {
     position: relative;
     display: flex;
     justify-content: center;
@@ -807,13 +875,14 @@ header nav a:hover {
 }
 
 .headline {
-    padding-top: 1.4rem;
-    margin-top: 0.7rem;
-    color: black;
+    padding-top: 2.4rem;
     text-align: center;
-    letter-spacing: 5px;
     font-family: "PT Sans", sans-serif;
-    font-size: 34px;
+    font-size: 30px;
+    font-weight: 50;
+    margin-top: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
 }
 
 
@@ -1607,6 +1676,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 4vw;
 }
 
 .productdisplay {
@@ -1745,7 +1815,7 @@ article {
 .specifikationer {
     display: flex;
     position: absolute;
-    top: 24vw;
+    top: 26vw;
     left: 31.5vw;
 }
 
@@ -1777,7 +1847,7 @@ article {
 #materiale h1 {
     color: white;
     text-align: center;
-    font-family: "PT Sans", sans-serif;
+    font-family: ps sans, sans-serif;
     font-size: 20px;
     font-weight: 50;
 
@@ -1792,17 +1862,14 @@ article {
 
 .PutIKurv {
     position: absolute;
-    top: 10vw;
-    left: 5vw;
+    top: 7.5vw;
+    left: 5.5vw;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 3vw;
     width: 10vw;
     overflow: hidden;
     text-align: center;
     color: white;
-    border: 1.4px solid white;
     cursor: pointer;
-
 
 }
 
@@ -1838,6 +1905,7 @@ h3 {
 
 .hide {
     display: none;
+    pointer-events: none;
 
 }
 
@@ -1866,6 +1934,7 @@ h3 {
     font-weight: 50;
     text-transform: uppercase;
     margin-bottom: 0;
+    padding-top: 1vw;
     margin-top: 2vw;
     color: dimgray;
     letter-spacing: 0.01rem;
