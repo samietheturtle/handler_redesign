@@ -826,12 +826,7 @@ header nav a:hover {
     flex-direction: column;
 }
 
-#about_facade {
-    position: relative;
-    top: 10vw;
-    justify-content: center;
-    width: 100%;
-}
+
 
 .medarbejder_navn {
     font-size: 2rem;
