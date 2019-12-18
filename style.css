@@ -867,11 +867,13 @@ header nav a:hover {
 #barsketRight {
     position: absolute;
     background-color: white;
-    top: 14vw;
-    left: 57vw;
     width: 38vw;
     min-height: 25vw;
+    top: 14vw;
+    left: 57vw;
 }
+
+
 
 #ordrebeskrivelse {
     font-family: 'PT Sans', sans-serif;
@@ -1940,6 +1942,83 @@ h3 {
                 display: flex;
                 flex-wrap: wrap;
                 top: 50vw;
+
+            }
+        }
+
+
+        @media only screen and (max-width: 800px) {
+
+            #barsketwrapper {
+                height: 200vw;
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            #barsketTop {
+                height: 20vw;
+                width: 82vw;
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            #barsketLeft {
+                height: 60vw;
+                width: 90vw;
+                top: 27vw;
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            #barsketRight {
+                height: 70vw;
+                width: 90vw;
+                top: 90vw;
+                left: 5vw;
+
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            #ordrebeskrivelse,
+            #ordretekst,
+            #kommentar {
+                width: 88vw;
+
+            }
+        }
+
+
+        @media only screen and (max-width: 800px) {
+
+            #gopay {
+                width: 82vw;
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            #kommentar input[type=text] {
+                width: 75vw;
+                left: 1vw;
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            #tilfoj {
+                left: 80vw;
 
             }
         }
