@@ -715,9 +715,8 @@ header nav a:hover {
     display: flex;
     justify-content: center;
     left: -3vw;
-    bottom: -37vw;
+    bottom: -1vw;
     padding-bottom: 2vw;
-    min-height: 20vw;
 }
 
 #fbicon_btm {
@@ -795,15 +794,16 @@ header nav a:hover {
 }
 
 .aboutus_header {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 75px;
+    margin-right: 80px;
     font-weight: normal;
-    border-top: 1.4px solid #e5e6e9;
+
 }
 
 
 #aboutus_txt {
-    padding-left: 10px;
+    margin-left: 75px;
+    margin-right: 80px;
     padding-bottom: 25px;
 }
 
@@ -1327,7 +1327,7 @@ p {
     flex-wrap: wrap;
     align-content: baseline;
     background-color: #E1E1E1;
-    height: 200vw;
+    height: 71vw;
     padding: 3rem;
 }
 
