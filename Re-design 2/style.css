@@ -1,0 +1,1415 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#headerwrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#fbikon_top {
+    position: relative;
+    display: flex;
+    left: 8vw;
+    width: 2vw;
+    height: 2vw;
+    background-image: url(ui_elementer/facebook%20ui.svg);
+}
+
+#igikon_top {
+    position: relative;
+    display: flex;
+    left: 9vw;
+    width: 2vw;
+    height: 2vw;
+    background-image: url(ui_elementer/insta%20ui.svg);
+}
+
+#logo {
+    position: relative;
+    left: 37vw;
+    width: 18vw;
+    height: 12vw;
+    background-image: url(ui_elementer/logohandler.svg);
+}
+
+#search_bar {
+    position: relative;
+    left: 52vw;
+    top: 0.2vw;
+    border-radius: 9px;
+    padding: 2px;
+    border: 1px solid black;
+    width: 217px;
+    height: 15px;
+}
+
+
+#search_icon {
+    background-image: url(ui_elementer/ui_search.svg);
+    width: 1.1vw;
+    height: 1.1vw;
+    margin: 0.1vw;
+}
+
+
+#basket {
+    position: relative;
+    left: 53vw;
+    width: 2.725vw;
+    height: 2vw;
+    background-image: url(ui_elementer/ui_basket_ny.svg);
+}
+
+/******NAVI******/
+
+
+#nav_wrapper {
+    position: relative;
+    top: 1vw;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: regular;
+    padding-bottom: 2.5vw;
+    border-bottom: 1px solid #555;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 20px 50px;
+    color: grey;
+
+}
+
+header nav a:link {
+    color: grey;
+}
+
+
+header nav a:hover {
+    color: #a2a0a0;
+}
+
+
+/********LANDINGPAGE*******/
+
+#splash_sectionwrapper {
+    position: relative;
+    top: 4vw;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    overflow-y: hidden;
+    height: 30vw;
+
+}
+
+#splash1,
+#splash2,
+#splash3 {
+    width: 80%;
+    padding: 10px;
+
+}
+
+
+/*****VIDEO*****/
+
+#landingpage_video_container {
+    position: relative;
+    top: 6vw;
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    text-align: justify;
+    color: white;
+
+}
+
+#video {
+    width: 100%;
+    height: 60vw;
+    padding-left: 2px;
+}
+
+#landingpage_video_txt {
+    position: absolute;
+    bottom: -300px;
+    right: 8px;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    width: 350px;
+    border: 1.4px solid white;
+    padding: 20px;
+}
+
+#landingpage_video_knap {
+    position: absolute;
+    bottom: -330px;
+    right: 146px;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    width: 95px;
+    padding: 1px;
+    border: 1.4px solid white;
+    text-align: center;
+}
+
+
+
+/*****INSTAGRAM*****/
+
+#insta_h2 {
+    position: relative;
+    display: flex;
+    top: 37vw;
+    left: 5vw;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+#instawheel_sectionwrapper {
+    position: relative;
+    top: 36vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    overflow-y: hidden;
+    height: 25vw;
+
+    border-top: 1px solid #e5e6e9;
+    border-bottom: 1px solid #e5e6e9;
+}
+
+
+/*
+#instawheel_sectionwrapper {
+    position: relative;
+    display: flex;
+    top: 36vw;
+    justify-content: space-between;
+}
+*/
+
+
+#insta1_pic {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background-image: url(billeder/instagram/insta1.jpg);
+
+
+}
+
+
+#insta2_pic {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background-image: url(billeder/instagram/insta2.jpg);
+
+}
+
+#insta3_pic {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background-image: url(billeder/instagram/insta3.jpg);
+
+}
+
+#insta4_pic {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background-image: url(billeder/instagram/insta4.jpg);
+
+}
+
+/*****FOOTER****/
+
+#info_col1,
+#info_col2,
+#info_col3,
+#info_col4,
+#info_col5 {
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+.footer_arrow {
+    cursor: pointer;
+}
+
+
+#footer_sectionwrapper {
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 2.5rem;
+
+
+}
+
+.footer_txt {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #e5e6e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: -39vw;
+}
+
+
+#some_sectionwrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -3vw;
+    bottom: -37vw;
+    padding-bottom: 2vw;
+    min-height: 20vw;
+}
+
+#fbicon_btm {
+    position: relative;
+    display: flex;
+    left: 5vw;
+    width: 2vw;
+    height: 2vw;
+    background-image: url(ui_elementer/facebook%20ui.svg);
+}
+
+#igicon_btm {
+    position: relative;
+    display: flex;
+    width: 2vw;
+    height: 2vw;
+    background-image: url(ui_elementer/insta%20ui.svg);
+}
+
+
+/*******ABOUTUS*******/
+
+
+#aboutus_wrapper {
+    position: relative;
+    background-color: #E1E1E1;
+    top: 1vw;
+    margin-left: 99px;
+    margin-right: 99px;
+}
+
+#about_band {
+    width: 100%;
+    height: 28vw;
+}
+
+.aboutus_header {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: normal;
+}
+
+
+#aboutus_txt {
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+#portrait_wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 5vw;
+    padding-bottom: 2vw;
+}
+
+.portrait_pic {
+    width: 20vw;
+    height: 20vw;
+}
+
+#portrait_txt_wrapper {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+#about_facade {
+    position: relative;
+    top: 10vw;
+    justify-content: center;
+    width: 100%;
+}
+
+.medarbejder_navn {
+    font-size: 2rem;
+
+}
+
+
+
+
+/******BAND*******/
+#band {
+    background-color: #E4E4E4;
+}
+
+.headline {
+    padding-top: 1.4rem;
+    margin-top: 0.7rem;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 34px;
+}
+
+
+.baand_sectionwrapper {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product_pic {
+    width: 25vw;
+    height: 25vw;
+    align-content: center;
+    object-fit: cover;
+}
+
+
+#band_col_top {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+
+.col_btm {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+
+.product_btn {
+    position: absolute;
+    letter-spacing: 5px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    width: 170px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.79);
+    text-align: center;
+    top: 20vw;
+    left: 6vw;
+    opacity: 80%
+}
+
+.product_wrapper1,
+.product_wrapper2,
+.product_wrapper3,
+.product_wrapper4,
+.product_wrapper5,
+.product_wrapper6 {
+    display: flex;
+    position: relative;
+    padding: 9px;
+}
+
+
+
+/*****BASKET*******/
+#barsketwrapper {
+    position: relative;
+    background-color: #E4E4E4;
+    width: 100%;
+    height: 50vw;
+}
+
+#barsketTop {
+    position: absolute;
+    background-color: white;
+    top: 2vw;
+    left: 5vw;
+    width: 87.2vw;
+    height: 10vw;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#barsketLeft {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    top: 14vw;
+    left: 5vw;
+    width: 50vw;
+    min-height: 22vw;
+}
+
+#barsketRight {
+    position: absolute;
+    background-color: white;
+    top: 14vw;
+    left: 57vw;
+    width: 38vw;
+    min-height: 25vw;
+}
+
+#ordrebeskrivelse {
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+    left: 10px;
+    width: 500px;
+    margin: 0;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+#ordretekst,
+#total {
+    position: relative;
+    left: 10px;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+
+#gopay {
+    position: relative;
+    left: 23px;
+    height: 50px;
+    width: 500px;
+    background-color: black;
+}
+
+#gopay h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: ps sans, sans-serif;
+    font-size: 25px;
+    font-weight: 50;
+}
+
+
+#product {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background-image: url(billeder/produkter/produkt1.png);
+    background-size: 100%;
+    align-self: center;
+    left: 20px;
+}
+
+#barsketinfo {
+    position: absolute;
+    left: 20vw;
+    width: 30vw;
+    height: 20vw;
+}
+
+#beskrivelse {
+    position: absolute;
+    top: 2vw;
+}
+
+#prisstk {
+    position: absolute;
+    height: 40px;
+    width: 400px;
+    top: 204px;
+    padding: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+#totalpris {
+    position: absolute;
+    top: 235px;
+}
+
+#antalvare {
+    position: absolute;
+    top: 130px;
+    display: flex;
+
+}
+
+#lommeregner {
+    position: relative;
+    top: 14px;
+    left: 6px;
+}
+
+#antalvare input[type=text] {
+    position: relative;
+    text-align: center;
+    width: 10px;
+
+}
+
+#barsketLeft h1,
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#barsketTop h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 50;
+    font-size: 60px;
+    margin: 0;
+}
+
+#barsketTop h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 50;
+    font-size: 20px;
+    margin: 0;
+    color: gray;
+}
+
+#kommentar input[type=text] {
+    position: relative;
+    width: 450px;
+    height: 20px;
+    left: 10px;
+    font-style: italic;
+    font-family: 'PT Sans', sans-serif;
+    color: gray;
+}
+
+#tilfoj {
+    position: relative;
+    left: 470px;
+    top: -27px;
+    height: 20px;
+    width: 35px;
+    will-change: 10px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    background-color: grey;
+    opacity: 0.7;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
+    border: 1px solid grey;
+
+}
+
+#skraldespand {
+    position: absolute;
+    background-image: url(ui_elementer/ui_delete.svg);
+    height: 1.6vw;
+    width: 1vw;
+    opacity: 0.5;
+
+}
+
+#redigere {
+    position: absolute;
+    background-image: url(ui_elementer/ui_edit.svg);
+    height: 1.5vw;
+    width: 1.3vw;
+    left: 320px;
+    top: 20px;
+    opacity: 0.5;
+}
+
+#outline {
+    position: relative;
+    height: 1.5vw;
+    width: 1.5vw;
+    left: 290px;
+    top: 20px;
+    border-right: 1px solid black;
+
+}
+
+#redigereTekst {
+    position: relative;
+    left: 20px;
+    top: -9px;
+    font-style: italic;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******CHECKOUT******/
+
+#checkout {
+    background-color: #E4E4E4;
+    padding-top: 1rem;
+    padding-bottom: 50vw;
+}
+
+.order_summary_container {
+    background-color: black;
+    height: 18vw;
+    width: 33vw;
+    margin: 4rem;
+    padding: 2rem;
+}
+
+.check_order_summary_h2 {
+    color: white;
+
+}
+
+.checkout_table {
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.add_comment {
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.total {
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+
+
+.forsendelse_container {
+    background-color: white;
+    height: 18vw;
+    width: 33vw;
+    margin: 4rem;
+    padding: 2rem;
+
+    display: flex;
+}
+
+
+
+.forsendelse_kategori {
+    text-align: right;
+    left: 50vw;
+}
+
+forsendelse_txt {
+    width: 200px;
+    padding: 2rem;
+}
+
+.forsendelse_h2 {
+    align-items: flex-start;
+}
+
+.circle_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 200px;
+
+}
+
+
+.circle {
+    height: 18px;
+    width: 18px;
+    border: solid #707070;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+/*betalings container*/
+
+.betalingsmetode_container {
+    background-color: white;
+    height: 18vw;
+    width: 33vw;
+    margin: 4rem;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****CONFIRMATION*******/
+
+#confirm_wrapper {
+    position: relative;
+
+}
+
+#order_confirm_h1 {
+    position: relative;
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+    left: 1vw;
+    top: 1vw;
+}
+
+#order_confirm_txt {
+    position: relative;
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    left: 1vw;
+    bottom: 0.5vw;
+
+}
+
+
+
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******PRODUCT****************/
+
+#productwrapper {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 20vw;
+}
+
+#barsket1 {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 5vw;
+    left: 4vw;
+    width: 90vw;
+    height: 36vw;
+}
+
+#product1 {
+    position: relative;
+    width: 35vw;
+    height: 35vw;
+    background-image: url(billeder/produkter/produkt1.png);
+    background-size: 100%;
+
+}
+
+#barsketinfo1 {
+    position: relative;
+    display: row;
+    width: 35vw;
+    height: 30vw;
+}
+
+#beskrivelse {
+    position: absolute;
+    top: 2vw;
+}
+
+
+#antalvare {
+    position: absolute;
+    top: 130px;
+    display: flex;
+
+}
+
+#tilfojTilKurv {
+    position: relative;
+    top: 300px;
+    height: 50px;
+    width: 400px;
+    background-color: black;
+}
+
+#tilfojTilKurv h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: ps sans, sans-serif;
+    font-size: 25px;
+    font-weight: 50;
+}
+
+#barsket1 h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#detaljer {
+    position: relative;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 400px;
+    top: 320px;
+}
+
+#fragt {
+    position: relative;
+    border: 1px solid lightgrey;
+    height: 100px;
+    width: 400px;
+    top: 330px;
+}
+
+#detaljer p {
+    margin: 0;
+    padding: 5px;
+    font-style: italic;
+    color: gray;
+}
+
+#bil {
+    position: relative;
+    width: 2vw;
+    height: 1.2vw;
+    background-image: url(ui_elementer/truck.svg);
+    background-size: 100%;
+    top: 10px;
+    left: 10px;
+}
+
+#fragtbeskrivelse {
+    position: relative;
+    left: 10px;
+    top: -30px;
+    color: gray;
+    font-size: 12px;
+}
+
+#fragtbeskrivelseOverskrift {
+    position: relative;
+    left: 50px;
+    top: -25px;
+
+}
+
+/*********SATINBÅND**********/
+
+article {
+    margin-left: 2vw;
+}
+
+.satinband {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productdisplay {
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    background-color: white;
+
+}
+
+#satinBand_1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt1.png);
+    background-size: 100%;
+}
+
+#satinBand_2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt2.png);
+    background-size: 100%;
+}
+
+#satinBand_3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt3.png);
+    background-size: 100%;
+}
+
+#satinBand_4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt4.png);
+    background-size: 100%;
+}
+
+#satinBand_5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt5.png);
+    background-size: 100%;
+}
+
+#satinBand_6 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt6.png);
+    background-size: 100%;
+}
+
+#satinBand_7 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt7.png);
+    background-size: 100%;
+}
+
+#satinBand_8 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt8.png);
+    background-size: 100%;
+}
+
+#satinBand_9 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt9.png);
+    background-size: 100%;
+}
+
+#satinBand_10 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt10.png);
+    background-size: 100%;
+}
+
+#satinBand_11 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt11.png);
+    background-size: 100%;
+}
+
+#satinBand_12 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/produkter/produkt12.png);
+    background-size: 100%;
+}
+
+.text {
+    background-color: #E4E4E4;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    width: 20vw;
+    text-align: center;
+    position: relative;
+
+}
+
+.text h1 {
+    top: 10vw;
+    margin-top: 0;
+    font-family: ps sans, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+
+}
+
+.text p {
+    margin-top: 0;
+    margin-bottom: 2vw;
+    font-family: ps sans, sans-serif;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.specifikationer {
+    display: flex;
+    position: absolute;
+    top: 24vw;
+    left: 31.5vw;
+}
+
+#type,
+#farve,
+#materiale {
+    width: 10vw;
+    height: 3.5vw;
+    background-color: black;
+    margin: 1vw;
+}
+
+#type h1 {
+    color: white;
+    text-align: center;
+    font-family: ps sans, sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#farve h1 {
+    color: white;
+    text-align: center;
+    font-family: ps sans, sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#materiale h1 {
+    color: white;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+
+}
+
+.overlay {
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.PutIKurv {
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 3vw;
+    width: 10vw;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    border: 1.4px solid white;
+    cursor: pointer;
+
+
+}
+
+.overlay h2,
+h3 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 50;
+    text-transform: uppercase;
+
+}
+
+.overlay h1 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 50;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.overlay h2 {
+    top: 6vw;
+    left: 3vw;
+
+}
+
+.overlay h3 {
+    top: 15vw;
+    left: 7vw;
+}
+
+.hide {
+    display: none;
+
+}
+
+.breadcrumb {
+    height: 12vw;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+
+}
+
+.breadcrumb h1 {
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 50;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
+}
+
+.breadcrumb h2 {
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 2vw;
+    color: dimgray;
+    letter-spacing: 0.01rem;
+}
+
+
+/******ANIMATIONER*******/
+
+/******MEDIA QUERY*******/
+
+@media only screen and (max-width: 800px) {
+
+    #satinbandwrapper {
+        height: 450vw;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    @media only screen and (max-width: 800px) {
+
+        .productdisplay {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            .text {
+                width: 200px;
+
+            }
+        }
+
+
+        @media only screen and (max-width: 800px) {
+
+            .breadcrumb {
+                display: flex;
+                justify-content: space-around;
+                padding: 4vw;
+                width: 45vw;
+                left: 27vw;
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            .breadcrumb h1,
+            .breadcrumb h2 {
+                font-size: 30px;
+                margin-bottom: 0;
+                margin-top: 0;
+                padding: 2vw;
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            #type,
+            #farve,
+            #materiale {
+                width: 40vw;
+                height: 10vw;
+
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            .specifikationer {
+                display: flex;
+                flex-wrap: wrap;
+                top: 50vw;
+
+            }
+        }
