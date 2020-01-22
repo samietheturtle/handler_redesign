@@ -138,9 +138,21 @@ header nav a:link {
 
 
 header nav a:hover {
-    color: #a2a0a0;
+    color: white;
+    background-color: black;
 }
 
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+}
 
 
 
@@ -182,7 +194,7 @@ header nav a:hover {
 .slideShow {
     position: relative;
     overflow-x: hidden;
-    top: 2.5vw;
+    margin: 10px 0px 50px 0px;
 }
 
 .placeHolder {
@@ -208,12 +220,12 @@ header nav a:hover {
 
 .layer2 {
     background-image: url(billeder/splash_bar/splash2.png);
-    animation: layer2Anim 10s infinite;
+    animation: layer2Anim 20s infinite;
 }
 
 .layer3 {
     background-image: url(billeder/splash_bar/splash3.png);
-    animation: layer3Anim 10s infinite;
+    animation: layer3Anim 20s infinite;
 }
 
 .slideOverlay {
@@ -269,57 +281,52 @@ header nav a:hover {
 
 
 
+
 /*****VIDEO*****/
 
-#landingpage_video_container {
-
+#landingpage_facade_container {
     position: relative;
-    top: 10vw;
-    width: 100%;
-    text-align: justify;
-    color: white;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 50px;
+    padding-right: 40px;
+
+    margin-bottom: 30px;
 }
 
 
-
-#landingpage_video_txt {
-    position: absolute;
-    top: 71px;
-    right: 72px;
+#landingpage_facade_txt {
     letter-spacing: 1px;
-    font-family: 'PT Sans', sans-serif;
     color: black;
-    width: 350px;
-    border-top: 1.4px solid #e5e6e9;
-    border-bottom: 1.4px solid #e5e6e9;
+    letter-spacing: 1px;
     padding: 20px;
 }
 
-#landingpage_video_knap {
-    position: absolute;
-    bottom: -330px;
-    right: 146px;
-    letter-spacing: 1px;
-    font-family: 'PT Sans', sans-serif;
-    color: white;
-    width: 95px;
-    padding: 1px;
-    border-top: 1.4px solid #e5e6e9;
-    border-bottom: 1.4px solid #e5e6e9;
-    text-align: center;
+
+.media {
+
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
 }
 
 
 
+.layer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.9;
+    width: 395px;
 
 
-
-
-
-
-
+}
 
 
 
@@ -376,37 +383,29 @@ header nav a:hover {
 #insta_h2 {
     position: relative;
     display: flex;
-    top: 15vw;
-    margin-left: 56px;
+
+    margin: 40px 0px 0px 56px;
     letter-spacing: 1px;
-    font-family: 'PT Sans', sans-serif;
 
 }
 
 #instawheel_sectionwrapper {
     position: relative;
-    top: 14vw;
+    margin: 0px 0px 30px 0px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
     overflow-y: hidden;
     height: 25vw;
+    /*
 
     border-top: 1px solid #e5e6e9;
     border-bottom: 1px solid #e5e6e9;
-
-}
-
-
-/*
-#instawheel_sectionwrapper {
-    position: relative;
-    display: flex;
-    top: 36vw;
-    justify-content: space-between;
-}
 */
+
+}
+
 
 
 #insta1_pic {
@@ -518,8 +517,7 @@ header nav a:hover {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 10px 150px 10px 150px;
     padding-bottom: 2.5rem;
 }
 
@@ -535,7 +533,7 @@ header nav a:hover {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    bottom: -17vw;
+    /*    bottom: -17vw;*/
 }
 
 .footer_txt_band {
@@ -543,7 +541,7 @@ header nav a:hover {
     margin-bottom: 0;
     font-weight: 500;
     color: #000;
-    font-family: 'PT Sans', sans-serif;
+
     font-size: 16px;
     line-height: 50px;
     border-top: 1px solid #e5e6e9;
@@ -648,10 +646,8 @@ header nav a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    left: -3vw;
-    bottom: -15vw;
-    padding-bottom: 2vw;
-    min-height: 4vw;
+    /*    left: -3vw;*/
+    padding-bottom: 10px;
 }
 
 #some_sectionwrapper_band {
@@ -959,7 +955,9 @@ header nav a:hover {
     text-align: center;
     top: 20vw;
     left: 6vw;
-    opacity: 80%
+    opacity: 80%;
+    cursor: pointer;
+
 }
 
 .product_wrapper1,
@@ -976,7 +974,10 @@ header nav a:hover {
 
 
 
-
+.product_btn:hover {
+    color: black;
+    background-color: white;
+}
 
 
 
@@ -1055,6 +1056,7 @@ header nav a:hover {
     padding-top: 10px;
 }
 
+
 #barsketLeft {
     position: absolute;
     display: flex;
@@ -1062,7 +1064,7 @@ header nav a:hover {
     top: 14vw;
     left: 5vw;
     width: 50vw;
-    min-height: 22vw;
+    min-height: 26.2vw;
 }
 
 #barsketRight {
@@ -1072,16 +1074,16 @@ header nav a:hover {
     min-height: 25vw;
     top: 14vw;
     left: 57vw;
+    padding-bottom: 15px;
 }
 
 
 
 #ordrebeskrivelse {
-    font-family: 'PT Sans', sans-serif;
     position: relative;
     left: 10px;
-    width: 500px;
-    margin: 0;
+    width: 460px;
+    margin: 0 auto;
     border-bottom: 1px solid lightgrey;
 
 }
@@ -1091,26 +1093,24 @@ header nav a:hover {
     position: relative;
     left: 10px;
     padding: 10px;
-    font-family: 'PT Sans', sans-serif;
     font-size: 15px;
 }
 
 #gopay {
     position: relative;
-    left: 23px;
-    height: 50px;
-    width: 500px;
+    height: 45px;
+    width: 435px;
     background-color: black;
+    margin: 0 auto;
 }
 
 #gopay h1 {
     color: white;
     text-align: center;
-    margin: 0;
     padding: 10px;
-    font-family: ps sans, sans-serif;
     font-size: 25px;
     font-weight: 50;
+    margin: 0;
 }
 
 
@@ -1139,7 +1139,7 @@ header nav a:hover {
 #prisstk {
     position: absolute;
     height: 40px;
-    width: 400px;
+    width: 371px;
     top: 204px;
     padding: 0;
     border-bottom: 1px solid lightgrey;
@@ -1170,20 +1170,16 @@ header nav a:hover {
 
 }
 
-#barsketLeft h1,
-p {
-    font-family: 'PT Sans', sans-serif;
-}
+
 
 #barsketTop h1 {
-    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
     font-weight: 50;
-    font-size: 60px;
     margin: 0;
 }
 
 #barsketTop h2 {
-    font-family: 'PT Sans', sans-serif;
+
     font-weight: 50;
     font-size: 20px;
     margin: 0;
@@ -1192,22 +1188,22 @@ p {
 
 #kommentar input[type=text] {
     position: relative;
-    width: 450px;
+    width: 425px;
     height: 20px;
     left: 10px;
     font-style: italic;
-    font-family: 'PT Sans', sans-serif;
+
     color: gray;
 }
 
 #tilfoj {
     position: relative;
-    left: 470px;
+    left: 445px;
     top: -27px;
     height: 20px;
     width: 35px;
     will-change: 10px;
-    font-family: 'PT Sans', sans-serif;
+
     color: white;
     background-color: grey;
     opacity: 0.7;
@@ -1232,7 +1228,7 @@ p {
     background-image: url(ui_elementer/ui_edit.svg);
     height: 1.5vw;
     width: 1.3vw;
-    left: 320px;
+    left: 306px;
     top: 20px;
     opacity: 0.5;
 }
@@ -1241,7 +1237,7 @@ p {
     position: relative;
     height: 1.5vw;
     width: 1.5vw;
-    left: 290px;
+    left: 280px;
     top: 20px;
     border-right: 1px solid black;
 
@@ -1252,7 +1248,7 @@ p {
     left: 20px;
     top: -9px;
     font-style: italic;
-    font-family: 'PT Sans', sans-serif;
+
     color: black;
     font-size: 13px;
 }
@@ -1526,9 +1522,6 @@ img {
     font-weight: 50;
 }
 
-#barsket1 h1 {
-    font-family: 'PT Sans', sans-serif;
-}
 
 #detaljer {
     position: relative;
@@ -1625,21 +1618,19 @@ article {
     margin-left: 2vw;
 }
 
-/*
-#satinbandwrapper {
-    background-color: #E4E4E4;
-
-
+.PutIKurv a {
+    color: white;
 }
-*/
 
-
+.text a {
+    color: black;
+}
 
 .satinband {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 1vw;
+    margin-top: 4%;
 }
 
 .productdisplay {
@@ -1761,7 +1752,7 @@ article {
 .text h1 {
     top: 10vw;
     margin-top: 0;
-    font-family: ps sans, sans-serif;
+
     font-size: 15px;
     font-weight: 500;
 
@@ -1771,8 +1762,8 @@ article {
 .text p {
     margin-top: 0;
     margin-bottom: 2vw;
-    font-family: ps sans, sans-serif;
-    font-size: 15px;
+
+    font-size: 17px;
     font-weight: 50;
 }
 
@@ -1781,6 +1772,7 @@ article {
     position: absolute;
     top: 26vw;
     left: 31.5vw;
+    cursor: pointer;
 }
 
 #type,
@@ -1790,66 +1782,75 @@ article {
     height: 3.5vw;
     background-color: black;
     margin: 1vw;
+    opacity: 0.9;
 }
+
+
 
 #type h1 {
     color: white;
     text-align: center;
-    font-family: ps sans, sans-serif;
+
     font-size: 20px;
-    font-weight: 50;
+    font-weight: 10;
 }
 
 #farve h1 {
     color: white;
     text-align: center;
-    font-family: ps sans, sans-serif;
+
     font-size: 20px;
-    font-weight: 50;
+    font-weight: 10;
 }
 
 #materiale h1 {
     color: white;
     text-align: center;
-    font-family: ps sans, sans-serif;
+
     font-size: 20px;
-    font-weight: 50;
+    font-weight: 10;
 
 }
 
 .overlay {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    transition: all 0.9s ease;
+
+}
+
+.overlay:hover {
+    opacity: 1;
     width: 20vw;
     height: 20vw;
     background-color: rgba(0, 0, 0, 0.8);
+
 
 }
 
 .PutIKurv {
     position: absolute;
-    top: 7.5vw;
-    left: 6.5vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px white solid;
     width: 10vw;
     overflow: hidden;
     text-align: center;
     color: white;
     cursor: pointer;
+    justify-content: center;
 
 }
 
-.overlay h2,
-h3 {
-    color: white;
-    font-size: 15px;
-    position: absolute;
-    font-family: "PT Sans", sans-serif;
-    font-weight: 50;
-    text-transform: uppercase;
-
-}
 
 .overlay h1 {
-    font-family: "PT Sans", sans-serif;
+
     font-weight: 50;
     font-size: 15px;
     text-transform: uppercase;
@@ -1883,7 +1884,6 @@ h3 {
 
 .breadcrumb h1 {
     text-align: center;
-    font-family: "PT Sans", sans-serif;
     font-size: 30px;
     font-weight: 50;
     margin-top: 0;
@@ -1893,7 +1893,7 @@ h3 {
 
 .breadcrumb h2 {
     text-align: center;
-    font-family: "PT Sans", sans-serif;
+
     font-size: 20px;
     font-weight: 50;
     text-transform: uppercase;
